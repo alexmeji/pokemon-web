@@ -2,10 +2,14 @@ import React from 'react';
 
 import './styles/App.css';
 
+// Pages
+import Dashboard from './pages/Dashboard';
+
+
 const App = () => (
-  <h1 className="title">
-    Hola Twitch!!
-  </h1>
+  <>
+    <Dashboard />
+  </>
 );
 
 export default App;

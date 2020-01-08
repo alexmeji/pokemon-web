@@ -51,7 +51,7 @@ module.exports = {
       },
     }),
     new MiniCssExtractPlugin({
-      filename: 'styles/misestilos.css',
+      filename: 'styles/[name].css',
       chunkFilename: '[id].css',
     }),
   ],
